@@ -17,6 +17,7 @@ void reverseStr(char str[])
 int main()
 {
   char str[1000];
+  printf("Enter string : ");
   scanf("%s", str);
   printf("\nString Before Reverse: %s", str);
   reverseStr(str);
