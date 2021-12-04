@@ -15,9 +15,9 @@ int main()
     gets(array2);
     flag = find_anagram(array1, array2);
     if (flag == 1)
-        printf("" % s " and " % s " are anagrams.\n", array1, array2);
+        printf(" %s and %s are anagrams.\n", array1, array2);
     else
-        printf("" % s " and " % s " are not anagrams.\n", array1, array2);
+        printf(" %s and %s  are not anagrams.\n", array1, array2);
     return 0;
 }
 
